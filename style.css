@@ -1,0 +1,190 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container{
+    width: 100%;
+}
+
+.flex-container{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: 50px;
+}
+
+.menu{
+    color: white;
+    font-size: 1.5em;
+    min-width: 200px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.banner-container{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+#banner-image{
+    width: 100%;
+    opacity: 0.6;
+}
+
+.banner-title{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    font-size: 3em;
+}
+.banner-subtitle{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 1.5em;
+}
+
+.skill-container{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 210px;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.skill1{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+}
+
+#image{
+    width: 130px;
+    height: 130px;
+    margin-right: 50px;
+}
+.skill-title{
+    font: bold;
+    font-size: 1.5em;
+    margin-left: 45%;
+    margin-top: 16px;
+}
+
+#skill-text{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.skill-heading{
+    widows: 100%;
+    background-color: black;
+    color: white;
+    height: 65px;
+    display: flex;
+}
+
+.portofolio-heading{
+    background-color: black;
+    display: flex;
+    height: 65px;
+    widows: 100%;
+    margin-bottom: 10px;
+}
+
+.portofolio-title{
+    color: white;
+    font-size: 1.5em;
+    font: bold;
+    margin-top: 20px;
+    margin-left: 41.5%;
+}
+
+.portofolio-container{
+    display: flex;
+    width: 100%;
+}
+
+.portofolio-work{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 600px;
+    height: 100%;
+    display: flex;
+}
+
+#portoimg{
+    height: 300px;
+    margin-right: 40px;
+}
+
+.portoinfo{
+    widows: 100%;
+}
+
+#portotitle{
+    font: bold;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.testi-heading{
+    background-color: black;
+    display: flex;
+    height: 65px;
+    widows: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.testi-title{
+    color: white;
+    font-size: 1.5em;
+    font: bold;
+    margin-top: 20px;
+    margin-left: 38.5%;
+}
+
+.testi-name{
+    font: bold;
+    font-size: 2em;
+    margin-left: 45%;
+    margin-bottom: 10px;
+}
+
+.testi-desc{
+    font-size: 1.5em;
+    margin-left: 40%;
+}
+
+.contact-heading{
+    background-color: black;
+    display: flex;
+    height: 65px;
+    widows: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-title{
+    color: white;
+    font-size: 1.5em;
+    font: bold;
+    margin-top: 20px;
+    margin-left: 43.5%;
+}
+
+.contact-name{
+    font: bold;
+    font-size: 1.5em;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+
+.contact-number{
+    font-size: 1.4em;
+    margin-left: 22%;
+}
