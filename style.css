@@ -48,28 +48,32 @@ body{
     font-size: 1.5em;
 }
 
-
 .skill-container{
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    height: 210px;
-    flex-direction: row;
-    margin-left: auto;
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.skill1{
-    display: flex;
-    margin-top: 40px;
-    width: 100%;
-    justify-content: center;
+.container-row{
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  justify-content: center;
 }
 
-#image{
-    width: 130px;
-    height: 130px;
-    margin-right: 50px;
+.skill h4{
+  text-align: center;
+
 }
+
+.skill img{
+  width: 130px;
+  height: 130px;
+}
+
 .skill-title{
     font: bold;
     font-size: 1.5em;
@@ -83,20 +87,15 @@ body{
     margin-top: 30px;
 }
 
-.skill-heading{
+.content-heading{
     widows: 100%;
-    background-color: black;
+    background-color: #192a56;
     color: white;
-    height: 65px;
+    height: 50px;
     display: flex;
-}
-
-.portofolio-heading{
-    background-color: black;
-    display: flex;
-    height: 65px;
-    widows: 100%;
-    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: tahoma;
+    font-size: 14px;
 }
 
 .portofolio-title{
@@ -135,15 +134,6 @@ body{
     margin-bottom: 20px;
 }
 
-.testi-heading{
-    background-color: black;
-    display: flex;
-    height: 65px;
-    widows: 100%;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
 .testi-title{
     color: white;
     font-size: 1.5em;
@@ -162,14 +152,6 @@ body{
 .testi-desc{
     font-size: 1.5em;
     margin-left: 40%;
-}
-
-.contact-heading{
-    background-color: black;
-    display: flex;
-    height: 65px;
-    widows: 100%;
-    margin-bottom: 10px;
 }
 
 .contact-title{
