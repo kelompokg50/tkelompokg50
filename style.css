@@ -120,17 +120,17 @@ body{
     width: 100%;
 }
 
-.portofolio-work{
-    margin-left: 40px;
-    margin-top: 20px;
-    width: 600px;
-    height: 100%;
-    display: flex;
+.portofolio-container img{
+     border: 2px solid #575D63;
+     margin: 20px;
+     padding: 10px;
+
+
 }
 
 #portoimg{
-    height: 300px;
-    margin-right: 40px;
+    height: 150px;
+    margin-right: 10px;
 }
 
 .portoinfo{
