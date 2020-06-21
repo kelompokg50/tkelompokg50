@@ -1,0 +1,35 @@
+/* Untuk Tablets */
+@media all and (max-width: 1000px){
+  .container-row {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  header{
+    width: 50%;
+  }
+
+  .banner-container{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+}
+
+/* Untuk Smartphones */
+
+/* Tambahkan breakpoint max-width: 670px */
+@media all and (max-width: 670px) {
+  .container-row {
+    width: 100%;
+  }
+
+  .banner-container{
+    width : 100%;
+  }
+
+  .menu-icon{
+   display:block;
+ }
+
+}
