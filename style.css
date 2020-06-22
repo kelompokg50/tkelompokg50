@@ -300,3 +300,7 @@ li{
   50%  {background-color: #58B19F;}
   100% {background-color: #B33771;}
 }
+
+.testimonial p{
+  color:black;
+}
