@@ -291,6 +291,7 @@ li{
   background-color: black;
   animation-name: example;
   animation-duration: 4s;
+  animation-iteration-count: 10;
 }
 
 @keyframes example {
