@@ -4,6 +4,7 @@
 
 * {
   box-sizing: border-box;
+
 }
 
 body{
@@ -22,7 +23,7 @@ a{
 .main-container a{
   line-height: 65px;
   padding: 0 25px;
-  color: black;
+  color: white;
   float: left;
   transition: all 0.5s;
 }
@@ -31,7 +32,7 @@ a{
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .main-container .icon{
@@ -49,7 +50,7 @@ a{
 .banner-container{
     background-image: url("banner.jpg");
     background-size: cover;
-    padding: 180px 0 100px 0;
+    padding: 150px 0 100px 0;
     height:400px;
     width:100%;
 }
@@ -224,7 +225,7 @@ a{
 header {
   height: 60px;
   width: 100%;
-  background-color: white;
+  background-color: rgba(34, 49, 52, 0.9);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -245,6 +246,7 @@ li{
   font-size : 30px;
   font-family: Pacifico;
   margin-top: 5px;
+  color: white;
 }
 
 .container{
@@ -266,4 +268,34 @@ li{
   padding-top:10px;
   font-family: montserrat;
   font-size: 14px;
+}
+
+.quote{
+  background-color: black;
+
+}
+
+.container h1{
+  font-family: montserrat;
+  text-align: center;
+  color: #2C3A47;
+}
+
+.container p{
+  color:white;
+  font-family: montserrat;
+  text-align: center;
+}
+
+.quote{
+  background-color: black;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color: #3B3B98;}
+  25%  {background-color: #FC427B;}
+  50%  {background-color: #58B19F;}
+  100% {background-color: #B33771;}
 }
