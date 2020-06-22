@@ -1,12 +1,17 @@
 /* Untuk Tablets */
 @media (max-width: 1000px) {
   .card-flex {
-    width: 50%;
-    margin-bottom: 50px;
+    flex: 100%;
+    max-width: 80%
   }
 
   .banner-container h1{
     font-size: 32px;
+  }
+
+  .col{
+  flex: 100%;
+  max-width: 80%;
   }
 
 
@@ -19,7 +24,8 @@
 /* Tambahkan breakpoint max-width: 670px */
 @media (max-width: 670px) {
   .card-flex{
-    width: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
 
   .banner-container h1{
@@ -47,4 +53,8 @@
     display: block;
     text-align: left;
   }
+
+  .col{
+  flex: 100%;
+  max-width: 100%;
 }
