@@ -4,95 +4,91 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Kelompok G50 </title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="responsive.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
       <header>
         <div class="container">
-          <!start logo>
+
           <div class="logo-header">
               <p class="logo" >G50</p>
           </div>
-          <!end logo>
 
-          <span class="fa fa-bars menu-icon"></span>
-
-          <!start navbar>
-          <div class="main-container">
+          <div class="main-container" id="topnav">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
           </div>
-        <!end navbar>
+
       </div>
     </header>
 
-      <!start jumbotron>
+
         <div class="banner-container">
-            <div class="banner-title">
+            <div class="container">
               <h1> DTS-OA Kelompok G50</h1>
               <p>Programming HTML, CSS, dan Javascript Digitalent Schoolarship 2020</p>
               <hr>
               <button type="submit" class="btn-more" name="" id="" />Selengkapnya</button>
             </div>
         </div>
-      <!end jumbotron>
 
-      <!start skill>
-        <div class="content-heading">
-            <div class="skill-title">Our Skills</div>
-        </div>
-
-        <div class="skill-container">
-            <div class="container-row card-flex">
-              <article class="skill">
-                <a href="#">
-                  <img id="image" src="https://image.flaticon.com/icons/svg/226/226269.svg">
-                </a>
-                <h4>HTML</h4>
-              </article>
+      <div class="skill-container">
+          <div class="container">
+            <div class="content-heading">
+                <h3>Our Skills</h3>
             </div>
 
-            <div class="container-row card-flex">
-              <article class="skill">
+            <div class="container-row ">
+              <div class="card-flex">
+                <div class="skill">
+                  <a href="#">
+                  <img id="image" src="https://image.flaticon.com/icons/svg/226/226269.svg">
+                  </a>
+                </div>
+                <h4>HTML</h4>
+              </div>
+
+
+            <div class="card-flex">
+              <div class="skill">
                 <a href="#">
                   <img id="image" src="https://image.flaticon.com/icons/svg/732/732190.svg">
                 </a>
+              </div>
                 <h4>CSS</h4>
-              </article>
             </div>
 
-            <div class="container-row card-flex">
-              <article class="skill">
+
+            <div class="card-flex">
+              <div class="skill">
                 <a href="#">
                   <img id="image" src="https://image.flaticon.com/icons/svg/919/919828.svg" alt="Javascript" >
                 </a>
+              </div>
                 <h4>Javascript</h4>
-              </article>
             </div>
-        </div>
-        <!end skill>
 
-        <!start portofolio>
-        <div class="content-heading">
-            <div class="portofolio-title">Our Previous Work</div>
-        </div>
+          </div>
+      </div>
+    </div>
 
-        <div class="portofolio-container">
-            <img id="portoimg" src="finance.jpg">
-            <img id="portoimg" src="finance.jpg">
-            <img id="portoimg" src="finance.jpg">
-            <img id="portoimg" src="finance.jpg">
-            <img id="portoimg" src="finance.jpg">
-            <img id="portoimg" src="finance.jpg">
-        </div>
-        <!end portofolio>
+    <div class="clear">
+
+        
+
+        <div class="testimoni">
+          <div class="container">
 
         <div class="content-heading">
-            <div class="testi-title">Our Works Testimonials</div>
+            <h3>Our Works Testimonials</h3>
         </div>
 
         <div class="testi-container">
@@ -110,9 +106,14 @@
                 <hr>
             </div>
         </div>
+      </div>
+      </div>
+
+      <div class="contact-us">
+        <div class="container">
 
         <div class="content-heading">
-            <div class="contact-title">Contact Us</div>
+            <h3>Contact Us</h3>
         </div>
 
         <div class="contact">
@@ -145,5 +146,7 @@
                 <hr>
             </div>
         </div>
+      </div>
+    </div>
     </body>
 </html>

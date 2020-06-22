@@ -1,35 +1,50 @@
 /* Untuk Tablets */
-@media all and (max-width: 1000px){
-  .container-row {
+@media (max-width: 1000px) {
+  .card-flex {
     width: 50%;
     margin-bottom: 50px;
   }
 
-  header{
-    width: 50%;
+  .banner-container h1{
+    font-size: 32px;
   }
 
-  .banner-container{
-    width: 50%;
-    margin-bottom: 50px;
-  }
+
+
 
 }
 
 /* Untuk Smartphones */
 
 /* Tambahkan breakpoint max-width: 670px */
-@media all and (max-width: 670px) {
-  .container-row {
+@media (max-width: 670px) {
+  .card-flex{
     width: 100%;
   }
 
-  .banner-container{
-    width : 100%;
+  .banner-container h1{
+    font-size: 24px;
   }
 
-  .menu-icon{
-   display:block;
- }
+  .banner-container p{
+    font-size: 14px;
+  }
 
+  .main-container a:not(:first-child) {display: none;}
+  .main-container a.icon {
+    float: right;
+    display: block;
+  }
+
+  .main-container.responsive {position: relative;}
+  .main-container.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .main-container.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
