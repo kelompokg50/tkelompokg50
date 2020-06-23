@@ -304,3 +304,15 @@ li{
 .testimonial p{
   color:black;
 }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  color: white;
+  display: block;
+  height: 80px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
